@@ -10,6 +10,12 @@ function App() {
           Betsey
         </a>
       </header>
+      <div className={styles.content}>
+        <div className={styles.banner}>
+          <p className={styles.bannerHighlight}>COME</p>
+          <p>And Get to Know Me</p>
+        </div>
+      </div>
       <Map className={styles.map} />
     </div>
   );

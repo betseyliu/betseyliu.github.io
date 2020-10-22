@@ -14,3 +14,17 @@
     filter: brightness(1.4);
   }
 }
+.content {
+  margin-top: 30vh;
+  padding-left: 6vw;
+}
+
+.banner {
+  color: $c-font-base;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.bannerHighlight {
+  color: #0afdca;
+  font-size: 100px;
+}

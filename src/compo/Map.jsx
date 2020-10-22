@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import DeckGL from '@deck.gl/react';
 import { TextLayer, ScatterplotLayer, ArcLayer } from '@deck.gl/layers';
 import { MapView } from '@deck.gl/core';
@@ -14,9 +14,11 @@ const INITIAL_VIEW_STATE = {
   zoom: 2.6,
   pitch: 40,
   bearing: 0,
+  minZoom: 2.3,
 };
 
 export const Map = () => {
+  const [hoverInfo, setHoverInfo] = useState({});
   // 地点文字
   const poiTextLayer = new TextLayer({
     id: 'poi-text-layer',
@@ -30,7 +32,10 @@ export const Map = () => {
     },
     getSize: (d) => d.priority * 3 + 7,
     getPixelOffset: (d) => d.offset || [0, -13],
+    pickable: true,
+    onHover: (info) => setHoverInfo(info),
   });
+
   // 地点marker
   const poiPointLayer = new ScatterplotLayer({
     id: 'poi-point-layer',
@@ -39,6 +44,7 @@ export const Map = () => {
     radiusMinPixels: 1.4,
     getPosition: (d) => d.coordinates,
     getFillColor: (d) => colors[d.priority - 1],
+    pickable: true,
   });
 
   const arcLayer = new ArcLayer({
@@ -66,6 +72,14 @@ export const Map = () => {
           attributionControl={false}
           logoPosition="bottom-right"
         />
+        {hoverInfo.object && hoverInfo.object.message && (
+          <div
+            className="map-tooltip"
+            style={{ left: hoverInfo.x, top: hoverInfo.y }}
+          >
+            {hoverInfo.object.message}
+          </div>
+        )}
       </MapView>
     </DeckGL>
   );

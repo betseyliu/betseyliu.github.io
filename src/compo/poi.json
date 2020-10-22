@@ -4,14 +4,16 @@
       "id": 1,
       "name": "Beijing",
       "coordinates": [116.3265, 39.964],
-      "priority": 6
+      "priority": 6,
+      "message": "I'm a FE engineer in Bytedance, working and living in Beijing."
     },
     "Anshan": {
       "id": 2,
       "name": "Anshan",
       "coordinates": [122.994331, 41.108646],
       "priority": 5,
-      "offset": [40, 0]
+      "offset": [40, 0],
+      "message": "Anshan is my hometown, where i was born and raised"
     },
     "Kunming": {
       "id": 3,
@@ -152,7 +154,8 @@
       "id": 24,
       "name": "Murmansk",
       "coordinates": [33.0925, 68.9792],
-      "priority": 2
+      "priority": 2,
+      "message": "I came here to hunt aurora, and I actully saw it for two consecutive days!!!! "
     },
     "Irkutsk": {
       "id": 25,
@@ -164,7 +167,8 @@
       "id": 26,
       "name": "Xian",
       "coordinates": [108.940178, 34.341568],
-      "priority": 4
+      "priority": 4,
+      "message": "I studied undergraduate at Xidian University and lived in Xi’an for 4 years"
     },
     "Ho Chi Minh": {
       "id": 27,
@@ -177,7 +181,8 @@
       "name": "Phu Quoc",
       "coordinates": [103.5887, 10.11685],
       "priority": 2,
-      "offset": [0, 15]
+      "offset": [0, 15],
+      "message": "I came here for the first time abroad, Phu Quoc Island is really a beautiful island"
     },
     "Hangzhou": {
       "id": 29,
