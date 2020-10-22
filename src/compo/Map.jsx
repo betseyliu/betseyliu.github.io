@@ -61,7 +61,6 @@ export const Map = () => {
     <DeckGL
       initialViewState={INITIAL_VIEW_STATE}
       controller={true}
-      className="test"
       style={{ right: '0px', left: 'auto', width: '1200px' }}
       layers={layers}
     >
