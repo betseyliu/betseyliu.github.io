@@ -1,0 +1,286 @@
+{
+  "poi": {
+    "Beijing": {
+      "id": 1,
+      "name": "Beijing",
+      "coordinates": [116.3265, 39.964],
+      "priority": 6
+    },
+    "Anshan": {
+      "id": 2,
+      "name": "Anshan",
+      "coordinates": [122.994331, 41.108646],
+      "priority": 5,
+      "offset": [40, 0]
+    },
+    "Kunming": {
+      "id": 3,
+      "name": "Kunming",
+      "coordinates": [102.832893, 24.880095],
+      "priority": 3,
+      "offset": [35, 0]
+    },
+    "Mang": {
+      "id": 4,
+      "name": "Mang",
+      "coordinates": [98.58519, 24.43657],
+      "priority": 2
+    },
+    "Lijiang": {
+      "id": 5,
+      "name": "Lijiang",
+      "coordinates": [100.227753, 26.855047],
+      "priority": 2
+    },
+    "Dali": {
+      "id": 6,
+      "name": "Dali",
+      "coordinates": [100.243933, 25.60133],
+      "priority": 2,
+      "offset": [15, 0]
+    },
+    "Shenyang": {
+      "id": 7,
+      "name": "Shenyang",
+      "coordinates": [123.40856, 41.8058],
+      "priority": 1
+    },
+    "Dalian": {
+      "id": 8,
+      "name": "Dalian",
+      "coordinates": [121.62754, 38.91622],
+      "priority": 1
+    },
+    "Tokyo": {
+      "id": 9,
+      "name": "Tokyo",
+      "coordinates": [139.691711, 35.689487],
+      "priority": 3
+    },
+    "Osaka": {
+      "id": 10,
+      "name": "Osaka",
+      "coordinates": [135.497009, 34.669529],
+      "priority": 2,
+      "offset": [0, 15]
+    },
+    "Kyoto": {
+      "id": 11,
+      "name": "Kyoto",
+      "coordinates": [135.768326, 35.011665],
+      "priority": 2,
+      "offset": [0, -15]
+    },
+
+    "Nara": {
+      "id": 12,
+      "name": "Nara",
+      "coordinates": [135.8049, 34.6851],
+      "priority": 2,
+      "offset": [20, 0]
+    },
+    "Fukuoka": {
+      "id": 13,
+      "name": "Fukuoka",
+      "coordinates": [130.399994, 33.583332],
+      "priority": 2
+    },
+    "Chengdu": {
+      "id": 14,
+      "name": "Chengdu",
+      "coordinates": [104.066002, 30.657],
+      "priority": 2
+    },
+    "Chongqing": {
+      "id": 15,
+      "name": "Chongqing",
+      "coordinates": [106.551559, 29.563009],
+      "priority": 2
+    },
+    "Tianjin": {
+      "id": 16,
+      "name": "Tianjin",
+      "coordinates": [117.195, 39.125],
+      "priority": 2,
+      "offset": [0, 15]
+    },
+    "Shenzhen": {
+      "id": 17,
+      "name": "Shenzhen",
+      "coordinates": [114.062996, 22.542883],
+      "priority": 2,
+      "offset": [30, 0]
+    },
+    "Hongkong": {
+      "id": 18,
+      "name": "Hongkong",
+      "coordinates": [114.177216, 22.30271],
+      "priority": 1,
+      "offset": [0, 15]
+    },
+    "Kaifeng": {
+      "id": 19,
+      "name": "Kaifeng",
+      "coordinates": [114.3074, 34.7986],
+      "priority": 2
+    },
+    "Sanya": {
+      "id": 20,
+      "name": "Sanya",
+      "coordinates": [109.505, 18.2431],
+      "priority": 2
+    },
+    "Almaty": {
+      "id": 21,
+      "name": "Almaty",
+      "coordinates": [76.92861, 43.25667],
+      "priority": 1
+    },
+    "St.Petersburg": {
+      "id": 22,
+      "name": "St.Petersburg",
+      "coordinates": [30.308611, 59.9375],
+      "priority": 2
+    },
+    "Moscow": {
+      "id": 23,
+      "name": "Moscow",
+      "coordinates": [37.618423, 55.751244],
+      "priority": 3
+    },
+    "Murmansk": {
+      "id": 24,
+      "name": "Murmansk",
+      "coordinates": [33.0925, 68.9792],
+      "priority": 2
+    },
+    "Irkutsk": {
+      "id": 25,
+      "name": "Irkutsk",
+      "coordinates": [104.2964, 52.2978],
+      "priority": 2
+    },
+    "Xian": {
+      "id": 26,
+      "name": "Xian",
+      "coordinates": [108.940178, 34.341568],
+      "priority": 4
+    },
+    "Ho Chi Minh": {
+      "id": 27,
+      "name": "Ho Chi Minh",
+      "coordinates": [106.660172, 10.762622],
+      "priority": 3
+    },
+    "Phu Quoc": {
+      "id": 28,
+      "name": "Phu Quoc",
+      "coordinates": [103.5887, 10.11685],
+      "priority": 2,
+      "offset": [0, 15]
+    },
+    "Hangzhou": {
+      "id": 29,
+      "name": "Hangzhou",
+      "coordinates": [120.166664, 30.25],
+      "priority": 2,
+      "offset": [-30, 0]
+    },
+    "Shanghai": {
+      "id": 30,
+      "name": "Shanghai",
+      "coordinates": [121.46917, 31.22436],
+      "priority": 2
+    },
+    "Banna": {
+      "id": 31,
+      "name": "Banna",
+      "coordinates": [100.797775, 22.00735],
+      "priority": 2
+    },
+    "Qingdao": {
+      "id": 32,
+      "name": "Qingdao",
+      "coordinates": [120.382698, 36.066898],
+      "priority": 2
+    },
+    "Kobe": {
+      "id": 33,
+      "name": "Kobe",
+      "coordinates": [135.195557, 34.689999],
+      "priority": 2,
+      "offset": [-20, 0]
+    },
+    "Guangzhou": {
+      "id": 34,
+      "name": "Guangzhou",
+      "coordinates": [113.25, 23.11667],
+      "priority": 3
+    },
+    "Haikou": {
+      "id": 35,
+      "name": "Haikou",
+      "coordinates": [110.3417, 20.0458],
+      "priority": 3,
+      "offset": [-20, -10]
+    }
+  },
+  "colors": [
+    [156, 110, 255],
+    [7, 196, 255],
+    [7, 255, 204],
+    [255, 251, 7],
+    [255, 87, 7],
+    [255, 42, 57]
+  ],
+  "links": [
+    { "from": "Beijing", "to": "Anshan" },
+    { "from": "Beijing", "to": "Tianjin" },
+    { "from": "Anshan", "to": "Dalian" },
+    { "from": "Beijing", "to": "Kaifeng" },
+    { "from": "Beijing", "to": "Xian" },
+    { "from": "Anshan", "to": "Shenyang" },
+    { "from": "Anshan", "to": "Xian" },
+    { "from": "Shenyang", "to": "Xian" },
+    { "from": "Chongqing", "to": "Xian" },
+    { "from": "Anshan", "to": "Qingdao" },
+    { "from": "Beijing", "to": "Chengdu" },
+    { "from": "Beijing", "to": "Chongqing" },
+    { "from": "Chengdu", "to": "Chongqing" },
+    { "from": "Shanghai", "to": "Beijing" },
+    { "from": "Beijing", "to": "Hangzhou" },
+    { "from": "Beijing", "to": "Hangzhou" },
+    { "from": "Beijing", "to": "Irkutsk" },
+    { "from": "Irkutsk", "to": "Moscow" },
+    { "from": "Moscow", "to": "Murmansk" },
+    { "from": "Murmansk", "to": "St.Petersburg" },
+    { "from": "St.Petersburg", "to": "Almaty" },
+    { "from": "Almaty", "to": "Beijing" },
+    { "from": "Anshan", "to": "Kunming" },
+    { "from": "Kunming", "to": "Banna" },
+    { "from": "Kunming", "to": "Mang" },
+    { "from": "Mang", "to": "Lijiang" },
+    { "from": "Lijiang", "to": "Dali" },
+    { "from": "Dali", "to": "Kunming" },
+    { "from": "Beijing", "to": "Guangzhou" },
+    { "from": "Beijing", "to": "Shenzhen" },
+    { "from": "Guangzhou", "to": "Shenzhen" },
+    { "from": "Shenzhen", "to": "Hongkong" },
+    { "from": "Shenzhen", "to": "Haikou" },
+    { "from": "Haikou", "to": "Sanya" },
+    { "from": "Sanya", "to": "Beijing" },
+    { "from": "Guangzhou", "to": "Phu Quoc" },
+    { "from": "Phu Quoc", "to": "Ho Chi Minh" },
+    { "from": "Ho Chi Minh", "to": "Beijing" },
+    { "from": "Beijing", "to": "Dalian" },
+    { "from": "Beijing", "to": "Shenyang" },
+    { "from": "Beijing", "to": "Kobe" },
+    { "from": "Kobe", "to": "Osaka" },
+    { "from": "Osaka", "to": "Kyoto" },
+    { "from": "Kyoto", "to": "Nara" },
+    { "from": "Osaka", "to": "Nara" },
+    { "from": "Osaka", "to": "Tokyo" },
+    { "from": "Osaka", "to": "Beijing" },
+    { "from": "Beijing", "to": "Fukuoka" }
+  ]
+}

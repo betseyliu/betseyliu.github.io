@@ -1,11 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.scss';
+import { Map } from './compo/Map.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="header"></header>
+      <header className={styles.header}>
+        <a className={styles.logo} href="/">
+          Betsey
+        </a>
+      </header>
+      <Map className={styles.map} />
     </div>
   );
 }
