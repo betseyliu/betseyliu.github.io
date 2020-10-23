@@ -90,9 +90,10 @@ export default () => {
           height="100%"
           key="map"
           mapboxApiAccessToken={
-            process.env.NODE_ENV === 'development'
-              ? MAPBOX_ACCESS_TOKEN_DEV
-              : MAPBOX_ACCESS_TOKEN_PROD
+            // process.env.NODE_ENV === 'development'
+            // ? MAPBOX_ACCESS_TOKEN_DEV
+            // : MAPBOX_ACCESS_TOKEN_PROD
+            MAPBOX_ACCESS_TOKEN_DEV
           }
           mapStyle="mapbox://styles/betseyliu/ckgkg1uif1ool19o8nk8dqg2e"
           attributionControl={false}

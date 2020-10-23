@@ -12,13 +12,12 @@ export default () => {
 
   setInterval(() => {
     setCur(getTime(DATE));
-  }, 200);
+  }, 1000);
   return (
     <div className={styles.count}>
       For <span>{cur.years}</span>y<span>{cur.months}</span>m
       <span>{cur.days}</span>d<span>{cur.hours}</span>h
       <span>{cur.minutes}</span>m<span>{cur.seconds}</span>s
-      <span>{cur.milliseconds.toString().padStart(3, 0)}</span>ms
     </div>
   );
 };
