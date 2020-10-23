@@ -1,21 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './App.module.scss';
-import { Map } from './compo/Map.jsx';
-import dayjs from 'dayjs';
-import duration from 'dayjs/plugin/duration';
-dayjs.extend(duration);
-
-const getTime = (date) => dayjs.duration(dayjs().diff(dayjs(date))).$d;
-
+import Map from './compo/Map.tsx';
+import Counter from './compo/Counter.tsx';
 function App() {
-  const DATE = '2016-06-06';
-
-  const [cur, setCur] = useState(getTime(DATE));
-
-  setInterval(() => {
-    setCur(getTime(DATE));
-  }, 200);
-
   return (
     <div className="App">
       <header className={styles.header}>
@@ -28,12 +15,7 @@ function App() {
           <p className={styles.bannerHighlight}>Betsey LIU</p>
           <p>I'v been a web developer</p>
         </div>
-        <div className={styles.count}>
-          For <span>{cur.years}</span>y<span>{cur.months}</span>m
-          <span>{cur.days}</span>d<span>{cur.hours}</span>h
-          <span>{cur.minutes}</span>m<span>{cur.seconds}</span>s
-          <span>{cur.milliseconds.toString().padStart(3, 0)}</span>ms
-        </div>
+        <Counter />
         <p className={styles.intro}>
           Currently - Being a Web Developer at Bytedance based in Beijing. i'm
           fascinated by all stunning visual works and focused on Data
@@ -53,7 +35,7 @@ function App() {
           <a href="https://github.com/betseyliu" className={styles.button}>
             <svg
               t="1603372156393"
-              class="icon"
+              className="icon"
               viewBox="0 0 1024 1024"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +52,7 @@ function App() {
           <a href="https://codepen.io/betseyliu" className={styles.button}>
             <svg
               t="1603382999926"
-              class="icon"
+              className="icon"
               viewBox="0 0 1024 1024"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +63,7 @@ function App() {
                 fill="white"
                 p-id="3073"
                 data-spm-anchor-id="a313x.7781069.0.i1"
-                class="selected"
+                className="selected"
               ></path>
             </svg>
           </a>
